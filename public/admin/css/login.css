@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Numans");
+
+html,
+body {
+    background-image: url(../img/login/login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: "Numans", sans-serif;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    height: 330px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background: #ffe9e9 !important;
+    opacity: 0.825;
+}
+
+.card-header {
+    border-bottom: 1px solid #ec2c7c;
+}
+
+.card-header h3 {
+    margin-top: 10px;
+    color: #ec2c7c;
+    text-align: center;
+}
+
+.input-group-prepend span {
+    width: 40px;
+    background-color: #ec2c7c;
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.login_btn {
+    font-display: block;
+    font-size: 17.5px;
+    font-weight: bolder;
+    color: black;
+    background-color: #ec2c7c;
+    width: 100px;
+}
+
+.login_btn:hover {
+    color: #ec2c7c;
+    background-color: black;
+}
+
+.small {
+    font-size: 80%;
+}
